@@ -1,0 +1,85 @@
+.tab {
+  font-family: 'Amatic SC';
+  font-size: 40px;
+  color: #008080;
+  margin: 20px;
+}
+
+.text {
+  position: relative;
+  cursor: pointer;
+}
+
+.hide {
+  visibility: hidden;
+}
+.step-height {
+  height: 250px;
+}
+.position-2 {
+  position: absolute;
+  left: 16%;
+}
+
+.position-3 {
+  position: absolute;
+  left: 67%;
+}
+
+.common-top {
+  top: -275px;
+}
+.first-top {
+  top: -330px;
+}
+
+.position-1 {
+  position: absolute;
+  left: 42%
+}
+
+.steps {
+  position: relative;
+}
+
+.steps-parent {
+  position: absolute;
+  bottom: 0;
+}
+
+img {
+  margin-left: 10px;
+}
+
+.first-txt {
+  position: absolute;
+  top: 15px;
+  font-size: 40px;
+  font-family: 'Amatic SC';
+}
+
+.height {
+  height: 350px;
+}
+.width {
+  width: 50%;
+}
+@media screen and (max-height: 700px), (max-width: 500px) {
+  .height {
+    height: 175px;
+  }
+  .common-top {
+    top: -120px;
+  }
+  .first-top {
+    top: -160px;
+  }
+  .width {
+    width: 50%;
+  }
+  .step-height {
+    height: 190px;
+  }
+}
+
+@media screen and (max-height: 699px) {}

@@ -1,0 +1,26 @@
+<ion-header></ion-header>
+<ion-content>
+  <div fxLayout="row" fxLayoutAlign="space-between center" class="tab">
+    <div class="text" *ngFor="let tab of tabs; let index=index" (click)="setActiveTab(tab, index)">
+      <img src="/assets/active.png" width="55" height="70" [class.hide]="tab !== activeTab">
+      <div class="first-txt">
+        {{tab}}
+      </div> 
+    </div>
+  </div>
+  <div class="steps-parent">
+    <div class="steps">
+      <img src="/assets/steps.jpg" width="100%" class="step-height">
+      <div class="position-2 common-top">
+        <img src="/assets/{{getImageName(2)}}" [width]="width" class="height">
+      </div>
+      <div class="position-1 first-top">
+        <img src="/assets/{{getImageName(1)}}" [width]="width" class="height">
+      </div>
+      <div class="position-3 common-top">
+        <img src="/assets/{{getImageName(3)}}" #pic (load)="onLoad()" class="height width">
+      </div>
+    </div>
+  </div>
+</ion-content>
+<ion-footer></ion-footer>
