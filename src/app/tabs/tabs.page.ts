@@ -20,18 +20,18 @@ export class TabsPage {
 
   private tabsData = [
     [
-      {image: 'j_035.png', position: 1},
+      {image: 'j_043.png', position: 1},
       {image: 'j_041.png', position: 2},
       {image: 'j_033.png', position: 3},
     ],
     [
       {image: 'j_041.png', position: 1},
-      {image: 'j_035.png', position: 2},
+      {image: 'j_043.png', position: 2},
       {image: 'j_033.png', position: 3},
     ],
     [
-      {image: 'j_033.png', position: 1},
-      {image: 'j_035.png', position: 2},
+      {image: 'j_043.png', position: 1},
+      {image: 'j_033.png', position: 2},
       {image: 'j_041.png', position: 3},
     ],
   ]
