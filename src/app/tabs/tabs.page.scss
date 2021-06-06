@@ -15,29 +15,29 @@
   visibility: hidden;
 }
 .step-height {
-  height: 220px;
+  height: 385px;
 }
 .position-2 {
   position: absolute;
-  left: 5%;
+  left: 9%;
 }
 .position-3 {
   position: absolute;
-  right: 5%;
+  right: 9%;
 }
 .common-top {
-  top: -155px;
+  top: -160px;
 }
 .first-top {
-  top: -203px;
+  top: -245px;
 }
 .position-1 {
   position: absolute;
-  left: 30%;
+  left: 32%;
 }
 .steps {
   position: relative;
-  width: 500px;
+  width: 700px;
   margin: auto;
 }
 .steps-parent {
@@ -48,29 +48,33 @@
 .first-txt {
   position: absolute;
   top: 15px;
-  font-size: 40px;
+  font-size: 60px;
   font-family: "Amatic SC";
 }
 .height {
-  height: 270px;
+  height: 340px;
 }
 .width {
   width: 50%;
 }
 .tab-content {
-  width: 500px;
+  width: 630px;
   margin: auto;
 }
 
 @media screen and (max-width: 600px) {
+  .first-txt {
+    font-size: 40px;
+  }
   .steps {
-    width: 400px;
+    width: 540px;
   }
   .height {
     height: 230px;
   }
   .first-top {
     top: -170px;
+    left: 35%; 
   }
   .common-top {
     top: -120px;
@@ -78,10 +82,13 @@
   .tab-content {
     width: 400px;
   }
+  .step-height {
+    height: 220px;
+  }
 }
 @media screen and (max-width: 440px) {
   .steps {
-    width: 300px;
+   width: 400px;
   }
   .height {
     height: 180px;
@@ -96,14 +103,51 @@
     width: 400px;
   }
   .position-1 {
-    left: 28%;
+    left: 34%;
   }
   .tab-content {
     width: 300px;
   }
+  .position-2 {
+    position: absolute;
+    left: 9%;
+  }
+  .position-3 {
+    position: absolute;
+    right: 9%;
+  }
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 360px) {
+  .steps {
+    width: 350px;
+  }
+  .height {
+    height: 160px;
+  }
+  .first-top {
+    top: -110px;
+  }
+  .common-top {
+    top: -64px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .steps {
+    width: 275px;
+  }
+  .height {
+    height: 140px;
+  }
+  .step-height {
+    height: 200px;
+  }
+  .first-top {
+    top: -96px;
+  }
+  .common-top {
+    top: -55px;
+  }
   .tab-content {
-    width: 230px;
+    width: 245px;
   }
 }
