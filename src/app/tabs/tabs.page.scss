@@ -2,15 +2,15 @@
   font-family: "Amatic SC";
   font-size: 40px;
   color: #008080;
-  margin: 20px;
+  width: 100%;
+  position: absolute;
+  top: 0;
 }
-
 .text {
   position: relative;
   cursor: pointer;
   margin-right: 10px;
 }
-
 .hide {
   visibility: hidden;
 }
@@ -19,338 +19,91 @@
 }
 .position-2 {
   position: absolute;
-  left: 18%;
+  left: 5%;
 }
-
 .position-3 {
   position: absolute;
-  right: 18%;
+  right: 5%;
 }
-
 .common-top {
-  top: -225px;
+  top: -155px;
 }
 .first-top {
-  top: -269px;
+  top: -203px;
 }
-
 .position-1 {
   position: absolute;
-  left: 42%;
+  left: 30%;
 }
-
 .steps {
   position: relative;
+  width: 500px;
+  margin: auto;
 }
-
 .steps-parent {
   position: absolute;
   bottom: 0;
+  width: 100%;
 }
-
 .first-txt {
   position: absolute;
   top: 15px;
   font-size: 40px;
   font-family: "Amatic SC";
 }
-
 .height {
-  height: 350px;
+  height: 270px;
 }
 .width {
   width: 50%;
 }
+.tab-content {
+  width: 500px;
+  margin: auto;
+}
 
-@media screen and (max-width: 1493px) {
-  .height {
-    height: 280px;
+@media screen and (max-width: 600px) {
+  .steps {
+    width: 400px;
   }
-  .common-top {
-    top: -162px;
+  .height {
+    height: 230px;
   }
   .first-top {
-    top: -212px;
-  }
-  .width {
-    width: 50%;
-  }
-  .position-1 {
-    left: 43% !important;
-  }
-}
-@media screen and (max-width: 1440px) {
-  .height {
-    height: 270px !important;
+    top: -170px;
   }
   .common-top {
-    top: -154px !important;
+    top: -120px;
   }
-  .first-top {
-    top: -205px !important;
-  }
-}
-@media screen and (max-width: 1400px) {
-  .height {
-    height: 260px !important;
-  }
-  .common-top {
-    top: -146px !important;
-  }
-  .first-top {
-    top: -195px !important;
-  }
-}
-@media screen and (max-width: 1340px) {
-  .height {
-    height: 250px !important;
-  }
-  .common-top {
-    top: -137px !important;
-  }
-  .first-top {
-    top: -188px !important;
-  }
-}
-@media screen and (max-width: 1290px) {
-  .height {
-    height: 240px !important;
-  }
-  .common-top {
-    top: -129px !important;
-  }
-  .first-top {
-    top: -179px !important;
-  }
-}
-@media screen and (max-width: 1235px) {
-  .height {
-    height: 230px !important;
-  }
-  .common-top {
-    top: -120px !important;
-  }
-  .first-top {
-    top: -171px !important;
-  }
-}
-@media screen and (max-width: 1180px) {
-  .height {
-    height: 220px !important;
-  }
-  .common-top {
-    top: -110px !important;
-  }
-  .first-top {
-    top: -162px !important;
-  }
-}
-@media screen and (max-width: 1150px) {
-  .height {
-    height: 210px !important;
-  }
-  .common-top {
-    top: -103px !important;
-  }
-  .first-top {
-    top: -153px !important;
-  }
-}
-@media screen and (max-width: 1066px) {
-  .position-1 {
-    left: 42% !important;
-  }
-  .position-2 {
-    left: 17% !important;
-  }
-  .position-3 {
-    right: 17% !important;
-  }
-}
-@media screen and (max-width: 980px) {
-  .position-1 {
-    left: 41% !important;
-  }
-  .position-2 {
-    left: 16% !important;
-  }
-  .position-3 {
-    right: 16% !important;
-  }
-}
-@media screen and (max-width: 890px) {
-  .position-1 {
-    left: 40% !important;
-  }
-  .position-2 {
-    left: 15% !important;
-  }
-  .position-3 {
-    right: 15% !important;
-  }
-}
-@media screen and (max-width: 780px) {
-  .position-1 {
-    left: 39% !important;
-  }
-  .position-2 {
-    left: 14% !important;
-  }
-  .position-3 {
-    right: 14% !important;
-  }
-}
-@media screen and (max-width: 680px) {
-  .position-1 {
-    left: 38% !important;
-  }
-  .position-2 {
-    left: 13% !important;
-  }
-  .position-3 {
-    right: 13% !important;
-  }
-}
-@media screen and (max-width: 620px) {
-  .position-1 {
-    left: 37% !important;
-  }
-  .position-2 {
-    left: 12% !important;
-  }
-  .position-3 {
-    right: 12% !important;
-  }
-}
-@media screen and (max-width: 580px) {
-  .position-1 {
-    left: 36% !important;
-  }
-  .position-2 {
-    left: 11% !important;
-  }
-  .position-3 {
-    right: 11% !important;
-  }
-}
-@media screen and (max-width: 520px) {
-  .position-1 {
-    left: 35% !important;
-  }
-  .position-2 {
-    left: 10% !important;
-  }
-  .position-3 {
-    right: 10% !important;
-  }
-}
-@media screen and (max-width: 480px) {
-  .position-1 {
-    left: 34% !important;
-  }
-  .position-2 {
-    left: 9% !important;
-  }
-  .position-3 {
-    right: 9% !important;
-  }
-}
-@media screen and (max-width: 470px) {
-  .position-1 {
-    left: 33% !important;
-  }
-  .position-2 {
-    left: 8% !important;
-  }
-  .position-3 {
-    right: 8% !important;
+  .tab-content {
+    width: 400px;
   }
 }
 @media screen and (max-width: 440px) {
-  .height {
-    height: 200px !important;
+  .steps {
+    width: 300px;
   }
-  .common-top {
-    top: -94px !important;
+  .height {
+    height: 180px;
   }
   .first-top {
-    top: -144px !important;
+    top: -128px;
   }
-}
-@media screen and (max-width: 420px) {
+  .common-top {
+    top: -80px;
+  }
+  .tab-content {
+    width: 400px;
+  }
   .position-1 {
-    left: 32% !important;
+    left: 28%;
   }
-  .position-2 {
-    left: 7% !important;
-  }
-  .position-3 {
-    right: 7% !important;
-  }
-}
-@media screen and (max-width: 400px) {
-  .height {
-    height: 190px !important;
-  }
-  .common-top {
-    top: -85px !important;
-  }
-  .first-top {
-    top: -135px !important;
-  }
-}
-@media screen and (max-width: 380px) {
-  .height {
-    height: 180px !important;
-  }
-  .common-top {
-    top: -77px !important;
-  }
-  .first-top {
-    top: -127px !important;
-  }
-}
-@media screen and (max-width: 350px) {
-  .height {
-    height: 170px !important;
-  }
-  .common-top {
-    top: -68px !important;
-  }
-  .first-top {
-    top: -120px !important;
+  .tab-content {
+    width: 300px;
   }
 }
 @media screen and (max-width: 340px) {
-  .height {
-    height: 160px !important;
-  }
-  .common-top {
-    top: -60px !important;
-  }
-  .first-top {
-    top: -110px !important;
-  }
-}
-@media screen and (max-width: 320px) {
-  .height {
-    height: 150px !important;
-  }
-  .common-top {
-    top: -52px !important;
-  }
-  .first-top {
-    top: -102px !important;
-  }
-}
-@media screen and (max-width: 300px) {
-  .height {
-    height: 140px !important;
-  }
-  .common-top {
-    top: -43px !important;
-  }
-  .first-top {
-    top: -93px !important;
+  .tab-content {
+    width: 230px;
   }
 }
