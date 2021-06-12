@@ -1,0 +1,79 @@
+ion-slides {
+  height: 100%;
+}
+.text {
+  position: absolute;
+    opacity: 0.85;
+    bottom: 70px;
+    background: #ffffff;
+    height: 100px;
+    font-size: 11pt;
+}
+.heading {
+  font-family: "Amatic SC";
+  font-size: 40px;
+  color: #008080;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) { 
+  .slide-container {
+    width: 85%;
+  }
+  .text {
+    bottom: 5px;
+    font-size: 18pt;
+  }
+  img {
+    height: 890px;
+  }
+  .heading {
+    font-size: 55px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-height: 768px) and (max-height: 1024px) { 
+  img {
+    height: 700px;
+  }
+}
+
+@media screen and (min-height: 500px) and (max-height: 600px) { 
+  img {
+    height: 460px;
+  }
+  .text {
+    bottom: 0;
+  }
+}
+
+@media screen and (min-height: 640px) and (max-height: 700px) { 
+  img {
+    height: 530px;
+  }
+  .text {
+    bottom: -20px;
+  }
+}
+
+@media screen and (min-height: 700px) and (max-height: 736px) { 
+  img {
+    height: 640px;
+  }
+  .text {
+    bottom: 0;
+  }
+}
+
+@media screen and (min-height: 1025px) { 
+   img {
+     height: 900px;
+   }
+   .heading {
+     font-size: 70px;
+   }
+   .text {
+     bottom: 195px;
+     padding-left: 30px;
+   }
+}
